@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Ordering.Application.Features.Orders.Queries.DTos;
+using Ordering.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,10 @@ namespace Ordering.Application.Mapping
 {
     public class MappingProfile : Profile
     {
+        public MappingProfile()
+        {
+            CreateMap<Order, OrdersVM>().ReverseMap();
+        }
 
     }
 }
