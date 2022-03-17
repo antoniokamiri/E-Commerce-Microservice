@@ -68,7 +68,7 @@ namespace Ordering.Application.Features.Orders.Commands.CheckoutOrder
 
         private async Task SendMail(Order order)
         {
-            var email = new Email { Body = $"Order {order.Id} was created successful", Subject = "Created Order", To = "antonicamwangi@gmail.com" };
+            var email = new Email { Body = $"Order {order.Id} was created successful", Subject = "Created Order", To = "antonicamwangi@gmail.com" , ToName="Antony"};
 
             try
             {
