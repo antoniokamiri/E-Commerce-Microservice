@@ -28,6 +28,15 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
 
+  orderdb:
+    container_name: orderdb
+    environment:
+      - SA_PASSWORD:"Str0ngPa$$w0rd"
+      - ACCEPT_EULA:"Y"
+    restart: always
+    ports:
+      - "1453:1433" 
+
   pgadmin:
     container_name: pgadmin
     environment:
