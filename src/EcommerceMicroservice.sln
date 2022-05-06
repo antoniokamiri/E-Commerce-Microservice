@@ -35,9 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Buildi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{BBD812A5-3027-45B0-B52D-1884F058591C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGW", "ApiGateway\OcelotApiGW\OcelotApiGW.csproj", "{FCC8A236-D274-4366-AC44-8848017A273D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGW", "ApiGateway\OcelotApiGW\OcelotApiGW.csproj", "{FCC8A236-D274-4366-AC44-8848017A273D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateway\Shopping.Aggregator\Shopping.Aggregator.csproj", "{9F8A4D00-B9E9-4B18-A3C5-30E4A194528E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Aggregator", "ApiGateway\Shopping.Aggregator\Shopping.Aggregator.csproj", "{9F8A4D00-B9E9-4B18-A3C5-30E4A194528E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{4A2D695F-A8F8-4974-9B69-355FE208FB29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "Services\IdentityServer\IdentityServer.csproj", "{317A0A6B-14DE-468D-B57F-42C2374E14F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,10 @@ Global
 		{9F8A4D00-B9E9-4B18-A3C5-30E4A194528E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F8A4D00-B9E9-4B18-A3C5-30E4A194528E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F8A4D00-B9E9-4B18-A3C5-30E4A194528E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317A0A6B-14DE-468D-B57F-42C2374E14F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317A0A6B-14DE-468D-B57F-42C2374E14F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317A0A6B-14DE-468D-B57F-42C2374E14F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317A0A6B-14DE-468D-B57F-42C2374E14F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +116,8 @@ Global
 		{66C8FB95-D5E5-415D-97DC-7882DDD75840} = {A03F9E06-994A-4A23-A36C-A2EA932512A2}
 		{FCC8A236-D274-4366-AC44-8848017A273D} = {BBD812A5-3027-45B0-B52D-1884F058591C}
 		{9F8A4D00-B9E9-4B18-A3C5-30E4A194528E} = {BBD812A5-3027-45B0-B52D-1884F058591C}
+		{4A2D695F-A8F8-4974-9B69-355FE208FB29} = {1D6338FD-E11F-412C-BBFC-DF5A78E539D2}
+		{317A0A6B-14DE-468D-B57F-42C2374E14F6} = {4A2D695F-A8F8-4974-9B69-355FE208FB29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {157DD298-19BF-45A4-97BF-B4A5253925CD}
